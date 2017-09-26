@@ -1,4 +1,6 @@
 # stream-compression 
+
+## Getting Started
 OpenSky Network  is an initiative took by researches from armasuisse(Switzerland),
 University of Kaiserslautern(Germany) and University of Oxford(UK).
 The main objective of the project is to provide high quality air traffic data for research purposes.
@@ -20,7 +22,7 @@ packets for different lossless compression techniques.
 
 Moreover I evaluated the performance of stream compression on real time data.
 
-#System Design Requirements
+## System Design Requirements
 
  -Real-time Capability: Compression and Decompression should never exceed 1s
 
@@ -28,11 +30,13 @@ Moreover I evaluated the performance of stream compression on real time data.
 
  -Low Communication Overhead: Performance of the system measures in Total transmit data including system/Control overhead of the compression system
 
-#Running the tests
+## Running the tests
 
 
 The compression and decompression system should be able to work via Linux pipelines as follows.
 
 netcat sensordata | compress_stream.py | tee a.bin | decompress_stream.py > b.bin
+
+## Additional Information
 
 Please look at the final presentation folder to see more details about the project, objectives and results.
