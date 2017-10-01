@@ -1,6 +1,6 @@
 # stream-compression 
 
-## Getting Started
+## Getting Started...
 OpenSky Network  is an initiative took by researches from armasuisse(Switzerland),
 University of Kaiserslautern(Germany) and University of Oxford(UK).
 The main objective of the project is to provide high quality air traffic data for research purposes.
